@@ -122,10 +122,17 @@ ENV/
 
 # mkdocs documentation
 /site
-
 # mypy
 .mypy_cache/
 
 # pytest
 .pytest_cache/
 .vscode
+
+#data exports
+/src/jupyter-notebooks-examples/exports/
+
+#MacOS
+.DS_Store
+Thumbs.db
+.idea/
